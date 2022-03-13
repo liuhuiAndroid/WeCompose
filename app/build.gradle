@@ -59,4 +59,6 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     implementation 'com.google.accompanist:accompanist-pager:0.23.1'
+    // TODO
+    implementation 'com.google.accompanist:accompanist-coil:0.15.0'
 }

@@ -64,7 +64,7 @@ private fun ChatListItem(chat: Chat) {
                 .padding(8.dp)
                 .size(48.dp)
                 .unRead(!chat.msgs.last().read, WeComposeTheme.colors.badge)
-                .clip(RoundedCornerShape(4.dp))
+                .clip(RoundedCornerShape(4.dp)) // shape 还可以切背景
         )
         Column(
             Modifier

@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             WeComposeTheme(viewModel.theme) {
-                Box {
+                Box { // Box 类似 FrameLayout
                     Home(viewModel)
                     ChatPage()
                 }
