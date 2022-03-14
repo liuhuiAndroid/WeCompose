@@ -32,6 +32,7 @@ fun ChatList(chats: List<Chat>) {
             .fillMaxSize()
     ) {
         WeTopBar(title = "微信")
+        // LazyColumn -> RecyclerView
         LazyColumn(Modifier.background(WeComposeTheme.colors.listItem)) {
             itemsIndexed(chats) { index, chat ->
                 ChatListItem(chat)
