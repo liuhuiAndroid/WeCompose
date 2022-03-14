@@ -10,6 +10,7 @@ import com.google.accompanist.pager.rememberPagerState
 import com.study.funny.MainViewModel
 import kotlinx.coroutines.launch
 
+// 自定义Composable = xml + 自定义View
 @OptIn(ExperimentalPagerApi::class)
 @Composable
 fun Home(viewModel: MainViewModel) {
