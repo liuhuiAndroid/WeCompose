@@ -32,3 +32,6 @@ val size by animateDpAsState(if(big) 96.dp else 48.sp)
 val bigTransition = updateTransition(big)
 val size by bigTransition.animateDp{ if(big) 144.dp else 0.sp }
 val cornerSize by bigTransition.animateDp{ if(big) 96.dp else 48.sp }
+
+View系统使用ComposeView.setContent使用Compose
+Compose可以使用AndroidView这个Composable函数操作View系统
